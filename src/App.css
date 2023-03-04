@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.plancards{
+  /* max-width: 1200px; */
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+.pricing{
+  padding: 1rem 3rem;
+}
+.cardheader{
+  padding : 1rem 0;
+}
+.cardheading{
+padding: 10px 0;
+}
+.price{
+  font-size: 24px;
+}
+.headspan{
+  font-size: 16px;
+}
+.pricing{
+  width: auto;
+}
+.plancards{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  padding: 10px 50px;
+}
+li {
+  list-style-type: none;  
+}
+.listcontent{
+  text-align: left;
+  margin-top: 15px;
+}
